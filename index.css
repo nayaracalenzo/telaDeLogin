@@ -44,7 +44,7 @@ button {
     width: 100%;
     padding: 10px;
     font-weight:600 ;
-    margin-top: 10px;
+    margin-top: 10px; 
     border-radius: 6px;
     transition-duration: 0.3s;
 }
@@ -56,6 +56,7 @@ button:hover {
 }
 
 p {
+    /* duas margens iguais mostrando a diferença entre chamar com 2 valores e chamar com 4 valores */
     margin: 20px 0;
     margin: 20px 0 20px 0;
 }
