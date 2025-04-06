@@ -1,3 +1,5 @@
+
+/* reset das configurações do navegador */
 * {
     border: 0;
     margin: 0;
@@ -9,7 +11,7 @@
     font-family: "Inter", sans-serif;
     /* border: 1px solid red; */
 }
-
+/* seletor de tag */
 body {
     background-color: #9a5dd0;
     display: flex;
@@ -17,29 +19,20 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-div.card {
+/* seletor de id */
+#card {
     background-color: #d3d2d2;
     width: 35%;
     padding: 50px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
 h1 {
-   margin-bottom: 10px; 
+   margin-bottom: 20px; 
 }
 
-.grid {
-    display: grid;
+/* seletor filho */
+.bloco > input {
     margin: 10px 0;
-    gap: 5px;
-}
-
-.grid>input {
     height: 36px;
     border-radius: 6px;
     width: 100%;
@@ -48,6 +41,7 @@ h1 {
 
 button {
     background-color: #9a5dd0;
+    width: 100%;
     padding: 10px;
     font-weight:600 ;
     margin-top: 10px;
@@ -64,9 +58,8 @@ button:hover {
 p {
     margin: 20px 0;
     margin: 20px 0 20px 0;
-    /* font-size: ; */
 }
 
-p>a:hover {
+p > a:hover {
     text-decoration: underline;
 }
